@@ -1,0 +1,105 @@
+$greyCol: rgb(197, 200, 201);
+
+*{
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header{
+    height: 50px;
+}
+.event{
+    background-color: rgb(175, 236, 175);
+    &:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+    
+}
+
+.hide:not(:first-child){
+    background-color: white;
+    font-size: 0;
+}
+
+
+
+
+.main{
+    width:90%;
+    height: 500px;
+    .calendar{
+        font-size: 38px;
+        margin-bottom: -20px;
+        margin-left: 15px;
+    }
+    .nameMain{
+        width: 100px;
+        margin-right: 20px;
+        border-radius: 3px;
+        border: 1px solid black;
+    }
+    .newEvent{
+        float: right;
+        text-align: center;
+        height: 26px;
+        width: 98px;
+        color: black;
+        margin: 0px 10px 15px 0px;
+        border-radius: 4px;
+        border: 1px solid black;
+        text-decoration: none;
+    }
+table{
+    width: 100%;
+    height: 450px;
+    border-spacing: 0;
+    border: 1px solid rgb(184, 182, 182);
+   td, th, tr{
+        width: 2%;
+        text-align: center;
+        border: 1px solid rgb(184, 182, 182);
+    }
+    th,tr:first-child{
+        background-color: $greyCol;
+    }
+}
+}
+
+.myForm{
+width: 60%;
+font-size: 23px;
+}
+.select{
+    width: 250px;
+    float: right;
+    
+}
+label{
+    margin: 20px ;
+}
+.enter{
+    float: right;
+    margin-top: 20px;
+}
+.cancel{
+        color: black;
+        border-radius: 3px;
+        border: 1px solid black;
+        text-decoration: none;
+        width: 20px;
+        padding-left: 3px;
+}
+.create{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 78.84px;
+    height: 34.8px;
+    margin-left: 35px;
+
+}
+.cancel:hover, .create:hover,.newEvent:hover{
+    cursor: pointer;
+    background-color:$greyCol ;
+}

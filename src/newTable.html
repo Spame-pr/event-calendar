@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Event</title>
+    <link rel="icon" href="icon.ico" type="image/ico">
+</head>
+
+<body>
+<header></header>
+    <form action="./index.html" class="myForm">
+
+        <div>
+
+            <label>Name of the event: </label>
+            <input type="text" class="select" id="eventSelect" required pattern="[A-Za-zА-Яа-яЁё0-9\s]{2,}"> 
+
+        </div> 
+        
+        <br>
+
+        <div >
+
+            <label> Participants:</label>
+
+            <select name="nameSelect" class="select " id="nameSelect">
+                <option value="leon">Leon</option>
+                <option value="lena">Elena</option>
+                <option value="bob">Bob</option>
+                <option value="maria">Maria</option>
+            </select>
+
+        </div>
+
+        <br>
+
+        <div >
+
+            <label> Day:</label>
+
+            <select name="daySelect" class="select " id="daySelect">
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed">Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+            </select>
+            
+        </div>
+
+        <br>
+
+        <div>
+
+            <label>Time:</label>
+
+            <select name="timeSelect" class="select " id="timeSelect">
+                <option value="ten">10:00</option>
+                <option value="elev">11:00</option>
+                <option value="twel">12:00</option>
+                <option value="thir">13:00</option>
+                <option value="fourt">14:00</option>
+                <option value="fift">15:00</option>
+                <option value="sixt">16:00</option>
+                <option value="sevent">17:00</option>
+                <option value="eight">18:00</option>
+            </select>
+
+        </div>
+
+        <br>
+
+       <div class="enter">
+
+        <a href="./index.html" class="cancel"> Cancel </a>
+        <input type="submit" value="Create" class="create" >
+        
+       </div>
+
+    </form>
+
+</body>
+
+</html>
